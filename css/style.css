@@ -1,14 +1,13 @@
  /****** BACKGROUND *****/
 
  header  {
-    position: relative;
-    height: 800px;
+    height: 100%;
     width: 100%;
     opacity: unset;
     background-image:url(../images/chicago-skyline-engagement_0032.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    
+  
+    margin: 0;
    }
 
    nav {
@@ -23,6 +22,7 @@
    background: rgb(80, 80, 80);
    height: 50px;
    padding-top: 15px;
+   box-sizing: border-box;
    }
 
    nav .topnav {
