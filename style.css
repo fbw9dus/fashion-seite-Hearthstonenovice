@@ -47,19 +47,27 @@ nav {
  list-style: none;
  }
  
-
+ .main h1 {
+    font-size: 100%;
+ }
  
+ .kapitel {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ #steuerunglinks ul {
+    padding-right: 0%;
+    margin: 20%;
+ }
  
 
 
 
  /****** BACKGROUND *****/
 
- header {
+ header[role="banner"] {
     position: relative;
-    height: 800px;
     width: 100%;
     opacity: unset;
-    background-image:url(../images/chicago-skyline-engagement_0032.jpg)
-
-   }
+  }
